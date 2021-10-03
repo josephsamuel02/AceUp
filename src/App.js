@@ -19,9 +19,6 @@ const App = ()=> {
     
 
 
-      <div className="bgimg"></div>
-      <div className="effect"></div>
-
 
 
 <Router>

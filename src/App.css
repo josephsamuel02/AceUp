@@ -3,6 +3,10 @@ body{
    padding: 0px;
 
 }
+/* :-webkit-any(
+    scroll
+) */
+
 a{
     text-decoration: none;
     
@@ -17,7 +21,7 @@ a{
     padding: 8px;
     background-color: rgba(79, 79, 190, 0.288);
     z-index: 9;
-      
+    max-width: 100%;
 }
 
 .header h1{
@@ -26,6 +30,7 @@ padding: 4px;
 
 font-size: 40px;
 color: white;
+
 }
 
 
@@ -50,7 +55,7 @@ background-position: center;
 background-size: cover;
 background-repeat: no-repeat;
 
-    
+max-width: 100%;
     z-index: -3;
 }
 
@@ -60,7 +65,7 @@ background-repeat: no-repeat;
     bottom: 0px;
     left: 0px;
     right: 0px;
-
+    max-width: 100%;
 
     background-image: linear-gradient(
 0deg,
@@ -157,3 +162,67 @@ background-color: rgba(41, 41, 196, 0.836);
 #emp:hover{
     background-color: rgba(69, 69, 250, 0.527);
 }
+
+
+.registeruser{
+    position: fixed;
+    top: 0%;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+
+    max-width: 100%;
+    background-image: linear-gradient(
+0deg,
+rgb(72, 98, 228) 23.8%,
+rgb(0, 47, 255) 35%,
+rgb(6, 10, 45) 80%
+
+);  
+margin: auto;
+opacity: 60%;
+
+z-index: -2;
+}
+
+.formcontainer{
+    position: fixed;
+    top: 0%;
+
+    left: 0%; 
+    right: 0%;
+    bottom: 0px;
+    margin: 0px;
+align-content: center;
+    margin: auto;
+    overflow:scroll;
+
+z-index: 2;
+}
+
+form{
+position: relative;
+top: 20%;
+left: 1%;
+right: 1%;
+bottom: 30px;
+    
+padding: 10px 20px 0px;
+
+    margin: 5px;
+    border-radius: 4px 50px;
+
+    background-color: white;
+  ;
+}
+
+.alart{
+    margin: 0px;
+    padding: 5px 2px 0px;
+    text-align: center;
+    font-weight: 8px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    color: red;
+}
+
