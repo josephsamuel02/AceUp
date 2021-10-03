@@ -1,0 +1,159 @@
+body{
+   margin: 0px;
+   padding: 0px;
+
+}
+a{
+    text-decoration: none;
+    
+}
+
+.header{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    margin: 0px;
+    padding: 8px;
+    background-color: rgba(79, 79, 190, 0.288);
+    z-index: 9;
+      
+}
+
+.header h1{
+margin: 0px;
+padding: 4px;
+
+font-size: 40px;
+color: white;
+}
+
+
+.header h4{
+    margin: 0px;
+    padding: 4px;
+    
+    font-size: 14px;
+    color: wheat;
+    }
+    
+
+.bgimg{
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    
+background-image: url(./image/sander-yigin-ki19VJAGh6w-unsplash.jpg);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+
+    
+    z-index: -3;
+}
+
+.effect{
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+
+
+    background-image: linear-gradient(
+0deg,
+rgb(72, 98, 228) 23.8%,
+rgb(0, 47, 255) 35%,
+rgb(6, 10, 45) 80%
+
+);  
+
+opacity: 60%;
+
+z-index: -2;
+}
+
+.landingpage{
+    position: fixed;
+    top: 100px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+
+}
+
+
+.welcome{
+ margin:20px ;
+ padding: 5px;
+ text-align: center;   
+ font-size: 18px;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ color: white;
+}
+
+.btnholder{
+    position: fixed;
+    top: 220px;
+    bottom: 0px;
+    left: 13%;
+    right: 13%;
+
+
+    margin: 100px 5px 0;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+#reg{
+    position: fixed;
+    /* top: 220px; */
+
+    left: 16%;
+    right: 16%;
+    margin: auto;
+    padding: 8px 2px;
+    width: 300px;
+
+    text-align: center;
+    font-size: 19px;
+    font-weight: lighter;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    background-color: rgba(12, 12, 141, 0.527);
+    border: solid 1.5px white;
+    border-radius: 50px;
+
+}
+#reg:hover{
+background-color: rgba(41, 41, 196, 0.836);
+}
+
+
+#emp{
+    position: fixed;
+    top: 380px;
+
+    left: 16%;
+    right: 16%;
+    margin: auto;
+    padding: 8px 2px;
+    width: 300px;
+
+
+    font-size: 19px;
+    font-weight: lighter;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    background-color: rgba(211, 211, 236, 0.514);
+    border: solid 1px rgb(24, 31, 121);
+    border-radius: 50px;
+
+}
+
+#emp:hover{
+    background-color: rgba(69, 69, 250, 0.527);
+}
