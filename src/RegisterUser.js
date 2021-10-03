@@ -130,16 +130,9 @@ return ( <div className="registeruser">
         />
         { alt && rednotice}
         
-        <br/> <br/>
-        
-        <FormLabel  >Gender</FormLabel>
-        <RadioGroup  >
-        <FormControlLabel inputRef={genderInput} value='male' control={ <Radio />} label='Male'/>
-        <FormControlLabel value='female'  control={ <Radio />} label='Female'/>
-        </RadioGroup>
-        
-        
-       <br />        
+      
+          
+         <br/> <br/>     
        
         <TextField
         
@@ -152,8 +145,18 @@ return ( <div className="registeruser">
          <br/> <br/>
 
 
+        
+        <FormLabel  >Gender</FormLabel>
+        <RadioGroup  >
+        <FormControlLabel inputRef={genderInput} value='male' control={ <Radio />} label='Male'/>
+        <FormControlLabel value='female'  control={ <Radio />} label='Female'/>
+        </RadioGroup>
+        
+
+        <br/> <br/>
          <FormLabel  >Date of Birth</FormLabel>
-         <br/>
+         <br/> <br/>
+       
         
        <TextField
         
@@ -166,8 +169,8 @@ return ( <div className="registeruser">
         />
 
         <br/> <br/>
-        <br/> 
         
+         <br/>
         
         <Link to={lnk}> <Button
         type='submit'
