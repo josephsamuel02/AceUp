@@ -2,6 +2,7 @@
   "name": "aceup-delivery",
   "version": "0.1.0",
   "private": true,
+  "main": "index.js",
   "homepage": "https://josephsamuel02.github.io/AceUp/",
 
   "dependencies": {
