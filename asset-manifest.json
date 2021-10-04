@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/AceUp/static/css/main.0b9f08f5.chunk.css",
+    "main.js": "/AceUp/static/js/main.8390f11d.chunk.js",
+    "main.js.map": "/AceUp/static/js/main.8390f11d.chunk.js.map",
+    "runtime-main.js": "/AceUp/static/js/runtime-main.1a68b669.js",
+    "runtime-main.js.map": "/AceUp/static/js/runtime-main.1a68b669.js.map",
+    "static/js/2.4922aaf0.chunk.js": "/AceUp/static/js/2.4922aaf0.chunk.js",
+    "static/js/2.4922aaf0.chunk.js.map": "/AceUp/static/js/2.4922aaf0.chunk.js.map",
+    "index.html": "/AceUp/index.html",
+    "static/css/main.0b9f08f5.chunk.css.map": "/AceUp/static/css/main.0b9f08f5.chunk.css.map",
+    "static/js/2.4922aaf0.chunk.js.LICENSE.txt": "/AceUp/static/js/2.4922aaf0.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/AceUp/static/media/zetong-li-mVqTumQH-c0-unsplash.b0f8a5d6.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1a68b669.js",
+    "static/js/2.4922aaf0.chunk.js",
+    "static/css/main.0b9f08f5.chunk.css",
+    "static/js/main.8390f11d.chunk.js"
+  ]
+}
